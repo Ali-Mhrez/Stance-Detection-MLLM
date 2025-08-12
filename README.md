@@ -46,8 +46,8 @@ No Special preprocessing was conducted except tokenization using the default tok
 
 | Dataset/Model | mBERT | xlm-RoBERTa | Distil-mBERT | mDeBERTa
 |:---|:---:|:---:|:---:|:---:|
-| AraStance | 2e-5 | 3e-5 | 3e-5 | 3e-5 |
-| UnifiedFC | 4e-5 | 3e-5 | 5e-5 | 2e-5 |
+| [AraStance](https://aclanthology.org/2021.nlp4if-1.9/) | 2e-5 | 3e-5 | 3e-5 | 3e-5 |
+| [UnifiedFC](https://aclanthology.org/N18-2004/) | 4e-5 | 3e-5 | 5e-5 | 2e-5 |
 
 ## Key Results
 
