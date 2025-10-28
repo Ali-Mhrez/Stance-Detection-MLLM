@@ -38,9 +38,9 @@ if __name__ == "__main__":
     
     print("Loading data and labels...")
     if dataset == 'unifiedfc':
-        raw_train = UnifiedFCReader(os.path.join(data_path, "/unifiedfc-main/"), folds=['Fold_1', 'Fold_2', 'Fold_3'])
-        raw_eval = UnifiedFCReader(os.path.join(data_path, "/unifiedfc-main/"), folds=['Fold_4'])
-        raw_test = UnifiedFCReader(os.path.join(data_path, "/unifiedfc-main/"), folds=['Fold_5'])
+        raw_train = UnifiedFCReader(os.path.join(data_path, "unifiedfc-main/"), folds=['Fold_1', 'Fold_2', 'Fold_3'])
+        raw_eval = UnifiedFCReader(os.path.join(data_path, "unifiedfc-main/"), folds=['Fold_4'])
+        raw_test = UnifiedFCReader(os.path.join(data_path, "unifiedfc-main/"), folds=['Fold_5'])
     elif dataset == 'arastance':
         raw_train = AraStanceReader(os.path.join(data_path, 'arastance-main/train.jsonl'))
         raw_val = AraStanceReader(os.path.join(data_path, 'arastance-main/dev.jsonl'))
